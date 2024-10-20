@@ -11,7 +11,7 @@ jobs:
   run_ballerina:
     name: Run Ballerina main.bal and Tests
     runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/balarina-assignmentWorkflow' #  only on the balarina-assignmentWorkflow branch
+    if: github.ref == 'refs/heads/main' #  only on the main branch
     steps:
       - name: Set up Ballerina
         run: |-
