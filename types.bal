@@ -53,8 +53,8 @@ type RegionPerformance record {|
 |};
 
 enum LoanType {
-    PERSONAL = "personal", 
-    EDUCATIONAL = "educational", 
+    PERSONAL = "personal",
+    EDUCATIONAL = "educational",
     HOUSING = "housing"
 }
 
